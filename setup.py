@@ -42,6 +42,7 @@ REQUIRES = [
     "httpx==0.16.1",
     "importlib-metadata==1.6.0;python_version<'3.8'",
     "jinja2>=2.11.2",
+    "ldap3==2.7",
     "PyJWT==1.7.1",
     # PyJWT has loose dependency. We want the latest one.
     "cryptography==3.2",
